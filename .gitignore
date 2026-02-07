@@ -1,0 +1,26 @@
+# Personal Data (never commit)
+user-profile.json
+user-background.md
+databases/
+daily-briefs/
+braindumps/
+
+# System files
+.DS_Store
+*.log
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node
+node_modules/
+package-lock.json

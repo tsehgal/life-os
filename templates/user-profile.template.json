@@ -1,0 +1,103 @@
+{
+  "user": {
+    "name": "Your Name",
+    "timezone": "America/New_York",
+    "wake_time": "06:00"
+  },
+
+  "career": {
+    "current_role": "Your Current Role",
+    "target_role": "Your Target Role",
+    "industries_of_interest": [
+      "Industry 1",
+      "Industry 2"
+    ],
+    "target_companies": [
+      "Company 1",
+      "Company 2",
+      "Company 3"
+    ]
+  },
+
+  "content": {
+    "has_project": false,
+    "project_name": "",
+    "project_topic": "",
+    "project_goal": ""
+  },
+
+  "health": {
+    "tracking_fitness": false,
+    "fitness_goal": ""
+  },
+
+  "learning_goals": [
+    "Skill 1",
+    "Skill 2"
+  ],
+
+  "daily_brief_topics": [
+    "Topic 1 (e.g., AI trends)",
+    "Topic 2 (e.g., Your industry news)",
+    "Topic 3 (e.g., Skills you're learning)"
+  ],
+
+  "daily_habits": [
+    {
+      "id": "habit_1",
+      "question": "Did you [habit] today?",
+      "type": "boolean"
+    },
+    {
+      "id": "habit_2",
+      "question": "How many [units]?",
+      "type": "number"
+    },
+    {
+      "id": "energy",
+      "question": "Energy level today?",
+      "type": "scale",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": "mood",
+      "question": "Mood today?",
+      "type": "scale",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": "one_win",
+      "question": "One win from today?",
+      "type": "text"
+    },
+    {
+      "id": "tomorrow_priority",
+      "question": "Tomorrow's #1 priority?",
+      "type": "text"
+    }
+  ],
+
+  "goals": {
+    "career": "Your career goal",
+    "personal": "Your personal goal",
+    "health": "Your health goal"
+  },
+
+  "weekly_goals": [
+    {
+      "name": "Goal 1",
+      "metric": "habit_1",
+      "weekly_target": 5
+    }
+  ],
+
+  "quarterly_goals": [
+    {
+      "name": "Quarterly Goal 1",
+      "metric": "metric_name",
+      "quarterly_target": 60
+    }
+  ]
+}
